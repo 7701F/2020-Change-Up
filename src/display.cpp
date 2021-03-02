@@ -41,25 +41,4 @@ void display()
 	lv_label_set_text(display_title, "Hard disk failure is imminent");
 	lv_obj_align(display_title, NULL, LV_ALIGN_IN_TOP_LEFT, 0, 0);
 
-	// /*Describe the color for the needles*/
-	// static lv_color_t needle_colors[1];
-	// needle_colors[0] = LV_COLOR_RED;
-
-	// /*Create a gauge*/
-	// lv_obj_t *gauge1 = lv_gauge_create(lv_scr_act(), NULL);
-	// lv_gauge_set_needle_count(gauge1, 1, needle_colors);
-	// lv_obj_set_size(gauge1, 200, 200);
-	// lv_obj_align(gauge1, NULL, LV_ALIGN_CENTER, 0, 0);
-	// lv_gauge_set_range(gauge1, 0, 10);
-	// lv_gauge_set_critical_value(gauge1, 4.5);
-
-	// lv_gauge_set_value(gauge1, 0, 15);
-
-	// while (true) {
-	// 	lv_label_set_text(display_title, "Connection Pending");
-	// 	lv_label_set_text(display_title, "Connection Pending.");
-	// 	lv_label_set_text(display_title, "Connection Pending..");
-	// 	lv_label_set_text(display_title, "Connection Pending...");
-	// 	pros::delay(20);
-	// }
 }

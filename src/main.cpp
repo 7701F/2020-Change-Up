@@ -55,8 +55,6 @@ void autonomous()
 	leftMtr.move_relative(-200, -200);
 	rightMtr.move_relative(-200, -200);
 	pros::delay(500);
-	// leftMtr.move_relative(-483, -200);
-	// rightMtr.move_relative(608, -200);
 	leftMtr.move_relative(456, 200);
 	rightMtr.move_relative(-456, -200);
 	pros::delay(500);
@@ -64,7 +62,4 @@ void autonomous()
 	rightMtr.move_relative(608, -200);
 
 	pros::delay(500);
-
-	// intake_mtr.move_velocity(0);
-	// intake1_mtr.move_velocity(0);
 }

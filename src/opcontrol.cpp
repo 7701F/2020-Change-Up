@@ -84,37 +84,6 @@ void opcontrol()
 			elevator1_mtr.move_velocity(0);
 		}
 
-		// if (master.get_digital(DIGITAL_Y) == 1)
-		// {
-		// 	intake_on = true;
-		// }
-
-		// // Intake Toggle
-		// if (intakeweirdo == true)
-		// {
-		// 	if (master.get_digital(DIGITAL_A) == 1)
-		// 	{
-		// 		intake_on = true;
-		// 	}
-
-		// 	if (master.get_digital(DIGITAL_B) == 1)
-		// 	{
-		// 		intake_on = false;
-		// 	}
-
-		// 	if (intake_on == true)
-		// 	{
-		// 		intake_mtr.move_velocity(200);
-		// 		intake1_mtr.move_velocity(-200);
-		// 	}
-
-		// 	if (intake_on == false)
-		// 	{
-		// 		intake_mtr.move_velocity(200);
-		// 		intake1_mtr.move_velocity(-200);
-		// 	}
-		// }
-
 		// Lastly, delay
 		pros::delay(1);
 	}
